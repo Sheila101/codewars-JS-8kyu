@@ -27,18 +27,14 @@ for(let i = 0; i < games.length; i++){
    //Add points, depending on the value of xScore compared to yScore
 
   if(xScore > yScore){
-    totalPoints = 3
+    totalPoints += 3
   }else if(xScore < yScore){
-    totalPoints = 0
+    totalPoints += 0
   }else if(xScore === yScore) {
-    totalPoints = 1
+    totalPoints += 1
   }
-
-
 }
-
 return totalPoints
- 
 
 }
 
